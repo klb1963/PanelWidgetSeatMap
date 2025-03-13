@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: PanelWidgetSeatmap
+Bundle-SymbolicName: PanelWidgetSeatmap;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: panelwidgetseatmap.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ com.sabre.edge.dynamo.ui
+Automatic-Module-Name: PanelWidgetSeatmap
+Bundle-ActivationPolicy: lazy

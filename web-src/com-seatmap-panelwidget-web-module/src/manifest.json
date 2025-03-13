@@ -1,0 +1,23 @@
+{
+  "name": "com-seatmap-panelwidget-web-module",
+  "redAppId": "n/a",
+  "bundleSymbolicName": "com.seatmap.panelwidget",
+  "bundleName": "seatmaps",
+  "contactDetails": {
+    "author": "klb",
+    "email": "k_l_b_1963@hotmail.com",
+    "phoneNumber": "+4915678152428",
+    "company": "SeatMaps",
+    "contactName": "Leonid",
+    "website": "SeatMaps.com"
+  },
+  "extensions": {
+    "com.sabre.edge.platform.optional.tiles": [
+      {
+        "service": "com-seatmap-panelwidget-web-module-SeatMapPanel"
+      }
+    ]
+  }
+
+}
+

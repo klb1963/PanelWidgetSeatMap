@@ -1,0 +1,32 @@
+{
+  "name": "com-seatmap-panelwidget-web-module-src",
+  "version": "1.0.0",
+  "description": "NGV module",
+  "author": {
+    "name": "klb"
+  },
+  "contributors": [],
+  "private": true,
+  "license": "LicenseRef-LICENSE",
+  "dependencies": {
+    "sabre-ngv-app": "*",
+    "sabre-ngv-core": "*",
+    "sabre-ngv-redAppSidePanel": "*",
+    "sabre-ngv-xp": "*",
+    "sabre-ngv-custom-forms": "*"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "ngv": {
+    "buildDependencies": {
+      "sabre-ngv-app": "*",
+      "sabre-ngv-core": "*",
+      "sabre-ngv-redAppSidePanel": "*",
+      "sabre-ngv-xp": "*",
+      "sabre-ngv-custom-forms": "*"
+    },
+    "concierge_version_min": "7.5.18",
+    "runtimeDependencies": {},
+    "testDependencies": {}
+  }
+}
