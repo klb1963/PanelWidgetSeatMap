@@ -13,6 +13,7 @@ import { SeatMapPanel } from './views/SeatMapPanel'; // Основной ком�
 import { SeatMapModal } from './views/SeatMapModal'; // Открываемое модальное окно
 
 export class Main extends Module { 
+
     init(): void { 
         super.init();
         this.setup(); // сетап кнопок
@@ -56,13 +57,14 @@ export class Main extends Module {
         const buttonsList = [
             new RedAppSidePanelButton('Show Banners', baseCssClassNames + '-banners', showBanners),
             new RedAppSidePanelButton('Test Workflow', 'btn btn-secondary', this.onTestWorkflowClick.bind(this)),
-            new RedAppSidePanelButton('New Button', 'btn btn-primary', () => console.log('New Button Clicked!'))
+            new RedAppSidePanelButton('New Button', 'btn btn-secondary', () => console.log('New Button Clicked!'))
         ];
 
         // Создаём конфигурацию для кнопок
         const config = new RedAppSidePanelConfig(buttonsList, 10);
 
         // Добавляем кнопки в правую панель
+        console.log("🔹 Buttons being added:", buttonsList);
         getService(ExtensionPointService).addConfig('redAppSidePanel', config);
         console.log("✅ Buttons added to RedApp Side Panel");
     }
